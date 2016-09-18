@@ -1,0 +1,20 @@
+[
+	{
+		"model": "Example",
+		"data": {
+			"name": "test1"
+		}
+	},
+    {
+        "model": "Example",
+        "data": {
+            "name": "test2"
+        }
+    },
+    {
+        "model": "Example",
+        "data": {
+            "name": "test3"
+        }
+    }
+]
