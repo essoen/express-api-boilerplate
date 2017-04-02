@@ -17,13 +17,19 @@ export default function (sequelize, DataTypes) {
             unique: false,
             allowNull: true
         }
-    } // , { // For reference:
-    //    classMethods: {
+    }, {
+        name: {
+            singular: 'example',
+            plural: 'examples'
+        }
+    // For reference:
+    //   hooks {},
+    //   classMethods: {
     //        associate(models) {
     //            // Create associations here
     //        }
     //    }
-    // }
+    }
     );
     return Example;
 }
